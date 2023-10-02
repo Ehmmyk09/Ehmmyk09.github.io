@@ -459,8 +459,8 @@ body{
     }
 
     #subscribe{
-        padding-bottom: 30px;
-
+        padding: 10px, 30px;
+        border-radius: 10px;
     }
   }
 
@@ -482,6 +482,11 @@ body{
         display: flex;
         flex-wrap: wrap;
 
+    }
+
+    #faq_section{
+        width: 90%;
+        padding-top: 50px;
     }
 
     #note{
@@ -507,8 +512,9 @@ body{
     }
 
     #jobs{
-        width: 50%;
-        margin-right: 100px;
+        width: 80%;
+        font-size: 25px;
+        margin-left: 50px;
     }
 
     .T_1{
@@ -518,8 +524,7 @@ body{
     }
 
     #final_section{
-        width: 95%;
-    }
+
     #course_content{
         font-size: 10px;
         width: 80;
@@ -536,10 +541,13 @@ body{
     #short_note{
         width:95%;
         font-size: 18px;
+        margin-bottom: 0px;
+        padding-bottom: 0;
     }
     
     .mail{
         width: 100px;
+        padding: 10px;
     }
 
     #mail{
@@ -552,6 +560,10 @@ body{
     }
     #last{
         width: 95%;
+        margin-top: 0px;
+    }
+    #movement{
+        margin-bottom: 0px;
     }
   }
 
@@ -581,4 +593,5 @@ body{
     
 
     }
+}
   
