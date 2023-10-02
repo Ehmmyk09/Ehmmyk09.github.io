@@ -74,7 +74,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
   }
   
   #menu-toggle {
@@ -116,6 +115,7 @@ body{
     margin-top: 0px;
     transform: rotate(-405deg);
   }
+
 
   #logo{
     height: 40px;
@@ -353,55 +353,50 @@ body{
 
 #last{
     margin-bottom: 10px;
-
+    border-bottom: 1px solid #73BF45;
 }
+
 
 @media (max-width: 1000px) {
     .menu-button-container {
-      display: flex;
-    }
-    .menu {
-      position: absolute;
-      top: 0;
-      margin-top: 50px;
-      left: 0;
-      flex-direction: column;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-    }
-    .top-nav{
+        display: flex;
+      }
+      .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 50px;
+        left: 0;
+        flex-direction: column;
         width: 100%;
-        height: 100%;
-    }
-
-    #menu-toggle ~ .menu li {
-      height: 0;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-    #menu-toggle:checked ~ .menu li {
-      border: 1px solid #333;
-      height: 2.5em;
-      padding: 0.5em;
-      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-    .menu > li {
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0.5em 0;
-      width: 100%;
-      color: white;
-      background-color: #222;
-    }
-  
-    .menu > li:not(:last-child) {
-      border-bottom: 1px solid #444;
-    }
+        justify-content: center;
+        align-items: center;
+      }
+      #menu-toggle ~ .menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      #menu-toggle:checked ~ .menu li {
+        border: 1px solid #333;
+        height: 3.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      .menu > li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        color: white;
+        background-color: #222;
+      }
+    
+      .menu > li:not(:last-child) {
+        border-bottom: 1px solid #444;
+      }
 
     body{
         width: 100%;
@@ -436,7 +431,7 @@ body{
         width: 250px;
     }
     #enroll_img{
-        width: 90%;
+        width:95%;
         margin-top: 100px;
         text-align: center;
     }
@@ -519,7 +514,7 @@ body{
     }
 
     #final_section{
-        width: 90%;
+        width: 95%;
     }
     #course_content{
         font-size: 10px;
@@ -535,7 +530,7 @@ body{
     }
 
     #short_note{
-        width:90%;
+        width:95%;
         font-size: 18px;
     }
     
@@ -544,7 +539,7 @@ body{
     }
 
     #mail{
-        width: 90%;
+        width: 95%;
         margin-left: 0;
         margin-right: 0px;
     }
@@ -552,7 +547,7 @@ body{
         padding-bottom: 10px;
     }
     #last{
-        width: 90%;
+        width: 95%;
     }
   }
 
