@@ -41,19 +41,25 @@ body{
   overflow: hidden;
   text-decoration: none;
   font-weight: bold;
-  padding-left: 2%;
-  padding-right: 2%;
+  text-align: center;
+}
+#linke{
+  color: #4D4645;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 150px;
 }
 
 #link{
   color: #4D4645;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
+  margin-left: 30px;  
 }
 
 #apply{
   border-radius: 20px;
-  margin-left: 200px;
+  margin-left: 250px;
 }
 
 button{
@@ -62,6 +68,7 @@ button{
   color: #0588DA;
   font-family: 'LT Wave', sans-serif;
   padding: 10px 30px;
+  
 }
 
 .menu-button-container {
@@ -72,7 +79,6 @@ button{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: center;
 }
 
 #menu-toggle {
@@ -115,12 +121,11 @@ button{
   transform: rotate(-405deg);
 }
 
+
 #faq{
     background-image: url(../images/Image\ \(2\).png);
-    padding: 100px;
+    padding: 150px;
     width: 100%;
-    padding-top: 200px;
-    padding-bottom: 100px;
     margin-bottom: 100px;
 }
 
@@ -138,158 +143,194 @@ button{
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    width: 500px;
-}
-
-#faq_section{
-    width: 700px;
-    margin-left: 300px;
-    text-align: center;
-
+    width: 50%;
 }
 
 #head{
-    color: #0588DA;
-    font-family:  'LT Wave', sans-serif;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
+  color: #0588DA;
+  font-family:  'LT Wave', sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 #sub{
-    color: #4D4645;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
+  color: #4D4645;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 
 #faq_section{
-    width: 700px;
-    margin-left: 300px;
-    text-align: center;
-
-}
-
-#head{
-    color: #0588DA;
-    font-family:  'LT Wave', sans-serif;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-}
-
-#sub{
-    color: #4D4645;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.faq_section{
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 #question{
-    color: #4D4645;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    border-top: 1px solid  rgb(235, 232, 232);
-    margin-top: 5px;
+  color: #4D4645;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  border-top: 1px solid  rgb(235, 232, 232);
+  margin-top: 5px;
 }
 
 #answer{
-    color: #4A556C;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    padding-left: 50px;
-    padding-right: 50px;
+  color: #4A556C;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 #captura{
-    width: 1000px;
+  width: 100%;
 }
 
 .question{
-    width: 100%;
-    text-align: center;
-    color: #4D4645;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: rgba(115, 191, 69, 0.05);
+  width: 100%;
+  text-align: center;
+  color: #4D4645;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 10px;
+  background-color: rgba(115, 191, 69, 0.05);
 }
 
 #max{
-  height: 20px;
+height: 20px;
 }
 
 
 #in_touch{
-    padding: 10px, 30px;
-    background-color: #73BF45;
-    border-radius: 25px;
+  padding: 10px, 30px;
+  background-color: #73BF45;
+  border-radius: 25px;
+  color: white;
+}
+#pat{
+margin-left: 50px;
+}
+
+#movement{
+color: #4D4645;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+font-weight: 400;
+width: 100%;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#started{
+border-radius: 20px;
+background-color: #0588DA;
+color: white;
+margin-top: 20px;
+}
+
+#newsletter{
+color: #4D4645;
+font-family: LT Wave;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 30px;
 }
 
 #mail{
-  padding:10px;
-  width: 100%;
-  background-color: rgba(115, 191, 69, 0.05);
-  text-align: center;
+width: 100%;
+background-color: rgba(115, 191, 69, 0.05);
+margin-top: 20px;
+padding-left: 100px;
+padding-bottom: 20px;
+padding-top: 20px;
 }
 
 .mail{
-   background-color: #0588DA;
-   border-radius: 10px;
-   margin-top: 10px;
-   width: 300px;
+background-color: rgba(5, 136, 218, 0.2);
+border-radius: 30px;
+margin-top: 10px;
+width: 400px;
+padding: 15px;
 }
 
 #subscribe{
-   padding: 10px,30px;
-   border-radius: 20px;
+padding: 10px,30px;
+border-radius: 20px;
 }
 
 #connected{
-   color: #4D4645;
-   font-family: Ubuntu;
-   font-size: 32px;
-   font-weight: 400;
+color: #4D4645;
+font-family: Ubuntu;
+font-size: 32px;
+font-weight: 400;
+}
+
+#T_1{
+margin-bottom: 50px;
+padding-left: 150px;
+color: #4D4645;
+font-family: LT wave;
+font-size: 20px;
+font-weight: 400;
+line-height: 60px;
+}
+#T_3{
+margin-bottom: 50px;
+color: #4D4645;
+font-family: LT wave;
+font-size: 20px;
+font-weight: 400;
+line-height: 60px
 }
 
 .T_1{
-    color: #4D4645;
-    font-family:  'LT Wave', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 400;
+color: #4D4645;
+font-family: LT wave;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+
 }
 
-.T_2{
-    color: #4D4645;
-    font-family:  'LT Wave', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    opacity: 0.5;
+#T_2{
+color: #4D4645;
+font-family: 'LT Wave Mono', sans-serif;
+font-size: 20px;
+font-weight: 400;
+opacity: 0.5;
+}
+
+#final_section{
+padding-bottom: 30px;
+margin-bottom: 20px;
 }
 
 #a{
-    text-decoration: none;
-    color: #4D4645;  
+text-decoration: none;
+color: #4D4645;  
 }
 
 #last{
-    margin-bottom: 10px;
-    border-bottom: 1px solid #73BF45;
+margin-bottom: 10px;
+
+}
+#social{
+padding-left: 80%;
+margin-bottom: 30px;
+border-top: 1px solid #73BF45;
+margin-bottom: 50px;
+padding-top: 10px;
 }
 
 @media (max-width: 1200px) {
@@ -305,6 +346,9 @@ button{
     width: 100%;
     justify-content: center;
     align-items: center;
+  }
+  #linke{
+    margin-left: 0;
   }
 
   #apply{
@@ -358,51 +402,109 @@ body{
         font-size: 15px;
     }
 
-    #faq_section{
-        width: 80%;
-        text-align: center;
-        margin-left: 50px;
-        margin-right: 20px;
-      }
+    .faq_section{
+      width: 100%;
     
-      #head{
-        font-size: 30px;
-      }
-      #sub{
-        text-align: center;
-        padding-left: 0;
-        margin-left: 0;
-      }
-      #question{
-        width: 90%;
-        margin-left: 20px;
-      }
-    
-      .mail{
-        width: 90%;
-        padding: 10px;
-        margin-bottom: 5px;
-      }
-  
-      #mail{
-        width: 90%;
-        margin-left: 20px;
-        margin-bottom: 20px;
-      }
-      #subscribe{
-        padding-bottom: 10px;
-      }
-      #sub{
-        font-size: 15px;
-      }
-    
-      #question{
-        font-size: 15px;
-      }
-    
-      .T_1{
-        padding-left: 30px;
-        text-align: center;
-        font-size: 10px;
     }
+    #head{
+      font-size: 30px;
+      margin-top: 0px;
+      padding-top: 0;
+      width: 100;
+      text-align: center;
+    }
+  
+    #sub{
+      font-size: 15px;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .mail{
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 5px;
+  }
+  
+  #mail{
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 20px;
+      padding-left: 0;
+  }
+  #connected{
+    font-size: 25px;
+  }
+  #subscribe{
+      padding-bottom: 10px;
+  }
+    .question{
+      margin-left: 20px;
+      width: 90%;
+    }
+    #question{
+      font-size: 15px;
+      text-align: center;
+    }
+    #que{
+      margin: 0 !important;
+    }
+  
+    #max{
+      margin-left: 80%;
+    }
+  
+    #newsletter{
+      padding-left: 0;
+      margin-left: 0;
+    }
+    .T_1{
+      padding-left: 30px;
+      text-align: center;
+      font-size: 10px;
+  }
+  
+    #about{
+      padding-left: 50px;
+      padding-top: 50px;
+    }
+    #social{
+      padding-left: 60%;
+  }
+  .T_1{
+      margin-left: 0;
+      padding-left: 0;
+      text-align: center;
+      font-size: 10px;
+      line-height: 20px;
+  }
+  #T_1{
+      margin-left: 0;
+      padding-left: 0;
+      text-align: center;
+     
+  }
+  #T_3{
+      margin-left: 0;
+      padding-left: 0;
+      text-align: center;
+      padding-top: 0;
+  }
+  
+  #about_content{
+      width: 80%;
+      margin-left: 30px;
+  }
+  
+  #logo{
+      width: 100px;
+      height: 30px;
+  }
+  
+  #linke{
+      margin-left: 0;
+  }
+  #link{
+      margin-left: 0;
+  }
   }

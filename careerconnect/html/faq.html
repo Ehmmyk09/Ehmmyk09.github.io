@@ -14,20 +14,22 @@
         <!--Header-->
         <section class="top-nav">
             <div>
-              <img src="../images/Frame.png" alt="" srcset="" style="height: 40px;">
+              <img src="../images/Frame.png" alt="" srcset="" style="height: 30px;">
             </div>
             <input id="menu-toggle" type="checkbox" />
             <label class='menu-button-container' for="menu-toggle">
             <div class='menu-button'></div>
           </label>
             <ul class="menu">
-              <li><a href="../html/index.html" class="active" id="link">Home</a></li>
-              <li><a href="../html/about.html" id="link">About</a></li>
+              <li><a href="../html/index.html" id="linke">Home</a></li>
+              <li><a href="../html/about.html" id="link" >About</a></li>
               <li><a href="../html/contact.html" id="link">Contact</a></li>
-              <li> <a href="../html/faq.html" id="link"  id="link" style="color: #0588DA;"> FAQ</a></li>
+              <li> <a href="../html/faq.html" id="link" class="active" style="color: #0588DA;"> FAQ</a></li>
               <li>
                 <a href="https://paystack.com/pay/Careerconnectacademy">
-                <button id="apply">Apply</button>
+                <button id="apply">
+                    Apply Now
+                </button>
             </a>
           </li>
             </ul>
@@ -49,27 +51,40 @@
                 Everything you need to know about our services.
             </div>
         </div>
-        <div class="faq_section">
-            <div id="question">
-                What's the eligibility for learning Tech Skills?   
+        <div id="que" class="row">
+            <div class="col-lg-3"></div>
+            <div id="question" class="col-lg-6">
+                What's the eligibility for learning Tech Skills? 
+                <div id="answer">
+                    There are no prerequisites for learning tech skills. All you need is to have a laptop and a willingness to learn.
+                </div>  
             </div>
+            <div class="col-lg-3">
             <img src="../images/minus-circle.png" alt="" srcset=""  id="max"> 
-            <div id="answer">
-                There are no prerequisites for learning tech skills. All you need is to have a laptop and a willingness to learn.
             </div>
-            <div id="question">
+            
+            <div class="col-lg-3"></div>
+            <div id="question" class="col-lg-6">
                 Can I build my website after learning Website Development?
             </div>
+            <div class="col-lg-3">
             <img src="../images/plus-circle.png" alt="" srcset="" id="max">
-            <div id="question">
+            </div>
+            <div class="col-lg-3"></div>
+            <div id="question" class="col-lg-6">
                 What do I expect to achieve by the end of this program?
             </div>
+            <div class="col-lg-3">
             <img src="../images/plus-circle.png" alt="" srcset="" id="max">
-            <div id="question">
+        </div>
+            <div class="col-lg-3"></div>
+            <div id="question" class="col-lg-6">
                 Are the Career Connect Academy classes virtual or physical?
             </div>
+            <div class="col-lg-3">
             <img src="../images/plus-circle.png" alt="" srcset="" id="max">
-        
+        </div>
+        </div>
         <div class="question">
             <div style="font-weight: bolder;">
                 Still have questions?
@@ -78,55 +93,56 @@
                 Can’t find the answer you’re looking for? Please get in touch with our friendly team.
             </div><br>
             <button id="in_touch">
-               <a href="../html/contact.html" style="text-decoration: none;"> Get in touch </a></button>
+               <a href="../html/contact.html" style="text-decoration: none; color: white;" > Get in touch </a></button>
         </div>
-        </div>
+        
 
 
-        <div id="mail" class="container">
-            <div class="row">
-                <div id="connected" class="col-lg-4">   
-                    Stay <span style="color: #0588DA;">Connected</span> with us.
-                </div>
-                <div class="col-lg-6">
-                    <input type="email" name="" id="" value="Your mail " class="mail">
-                    <button id="subscribe">Subscribe</button>
-                </div>
+        <div id="mail" class="row">
+            <div id="connected" class="col-lg-5">
+                Stay <span style="color: #0588DA;">Connected</span> with us.
             </div>
+            <div class="col-lg-6" id="email">
+                <div id="newsletter">Join our news letter</div> 
+                <input type="email" name="" id="" value=" Your email" class="mail">
+                <button id="subscribe">Subscribe</button>
+                
             </div>
+
+        </div>
      
-            <!--Last section-->
-                <div class="container" id="last">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <img src="../images/Frame (1).png" alt="" srcset="">
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="T_1">Pages
-                                <div style="opacity: 0.5;">
-                                    Home <br>
-                                    About <br>
-                                    Contact <br>
-                                    FAQ
+                   
+                <!--Last section-->
+                    <div class="container" id="last">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="../images/Frame (1).png" alt="" srcset="" style="height:20px; margin-left: 100px;">
+                            </div>
+                            <div class="col-lg-4" id="T_1">
+                                <div >Pages
+                                    <div class="T_1" style="opacity: 0.5; font-size: 12;">
+                                        Home <br>
+                                        About <br>
+                                        Contact <br>
+                                        FAQ
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4" id="T_3">
+                                <div >Contact
+                                    <div class="T_1" style="opacity: 0.5;">
+                                        +234 809 874 6734<br>
+                                        <a href="" id="a">hello@careerconnect.com</a> <br>
+                                        <a href="" id="a">LinkedIn</a> <br>
+                                        <a href="" id="a">Twitter</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="T_1">Contact
-                                <div style="opacity: 0.5;">
-                                    +234 809 874 6734<br>
-                                    <a href="" id="a">hello@careerconnect.com</a> <br>
-                                    <a href="" id="a">LinkedIn</a> <br>
-                                    <a href="" id="a">Twitter</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <div style="padding-left: 60%; margin-bottom: 50px;">
-                <img src="../images/Group 3253.png" alt="" srcset="" style="height: 20px;">
+                <div id="social">
+                    <img src="../images/Group 3253.png" alt="" srcset="" style="height: 25px;    ">
+                </iv>
             </div>
-        </div>
 
 </body>
 </html>
