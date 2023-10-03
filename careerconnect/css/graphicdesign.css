@@ -190,28 +190,29 @@ body{
 }
 
 #mail{
-    background-color: rgba(115, 191, 69, 0.05);
+  padding:10px;
+  width: 100%;
+  background-color: rgba(115, 191, 69, 0.05);
+  text-align: center;
 }
 
 .mail{
-    width: 300px;
-    background-color: #0588DA;
-    border-radius: 10px;
-    margin-top: 10px;
-    padding-left: 15px;
+   background-color: #0588DA;
+   border-radius: 10px;
+   margin-top: 10px;
+   width: 300px;
 }
 
 #subscribe{
-    padding: 10px, 30px;
-    border-radius: 10px;
+   padding: 10px,30px;
+   border-radius: 20px;
 }
 
 #connected{
-    color: #4D4645;
-    font-family: Ubuntu;
-    font-size: 32px;
-    font-weight: 400;
-    margin-left: 100px;
+   color: #4D4645;
+   font-family: Ubuntu;
+   font-size: 32px;
+   font-weight: 400;
 }
 
 .T_1{
@@ -241,45 +242,49 @@ body{
 }
 
 @media (max-width: 1200px) {
-    .menu-button-container {
-      display: flex;
-    }
-    .menu {
-      position: absolute;
-      top: 0;
-      margin-top: 50px;
-      left: 0;
-      flex-direction: column;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-    }
-    #menu-toggle ~ .menu li {
-      height: 0;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-    #menu-toggle:checked ~ .menu li {
-      border: 1px solid #333;
-      height: 2.5em;
-      padding: 0.5em;
-      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-    .menu > li {
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0.5em 0;
-      width: 100%;
-      color: white;
-      background-color: #222;
-    }
-  
-    .menu > li:not(:last-child) {
-      border-bottom: 1px solid #444;
-    }
+  .menu-button-container {
+    display: flex;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #apply{
+    margin-left: 0;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 3.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #222;
+  }
+
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
   }
 
   @media (max-width:500px) {
@@ -288,15 +293,15 @@ body{
       padding-left: 50px;
     }
 
-    #about{
-      font-size: 18px;
-    }
-
     #pana{
-      width: 100%;
-      
+      width: 90%;
+      margin-left: 20px;
+      margin-top: 0;
     }
-
+    #about{
+      font-size: 16px;
+      width: 70%;
+    }
     #foundation{
       padding-left:50px;
       font-size: 40px;
@@ -306,6 +311,11 @@ body{
     #list{
       padding-left: 50px;
     }
+
+    #ap{
+     margin-top:10px; 
+     margin-left: 50px;
+    }
     #basic{
       margin-left: 50px;
       width: 100%;
@@ -314,13 +324,27 @@ body{
     #frame{
       font-size: 15px;
       padding-left: 50px;
-      width: 90%;
       margin-top: 30px;
+      width: 90%;
+    }
+    .mail{
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 5px;
+    }
+
+    #mail{
+      width: 90%;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    #subscribe{
+      padding-bottom: 10px;
     }
 
     #movement{
       font-size: 18px;
-      margin-left: 50px;
+      margin-left: 20px;
     }
 
     #question{

@@ -248,26 +248,29 @@ body{
 }
 
 #mail{
-    background-color: rgba(115, 191, 69, 0.05);
-    width: 100%;
-    padding: 50px;
+  padding:10px;
+  width: 100%;
+  background-color: rgba(115, 191, 69, 0.05);
+  text-align: center;
 }
 
 .mail{
-  margin: 20px;
+   background-color: #0588DA;
+   border-radius: 10px;
+   margin-top: 10px;
+   width: 300px;
 }
 
 #subscribe{
-    padding: 10px, 30px;
-    border-radius: 10px;
+   padding: 10px,30px;
+   border-radius: 20px;
 }
 
 #connected{
-    color: #4D4645;
-    font-family: Ubuntu;
-    font-size: 32px;
-    font-weight: 400;
-    margin-left: 100px;
+   color: #4D4645;
+   font-family: Ubuntu;
+   font-size: 32px;
+   font-weight: 400;
 }
 
 .T_1{
@@ -379,29 +382,36 @@ body{
 
   .faq_section{
     width: 90%;
+    margin-left: 25px;
   }
   #head{
     font-size: 30px;
+    margin-top: 30px;
   }
 
   #sub{
     font-size: 15px;
+    margin-left: 30px;
   }
   
   .mail{
-    width: 100px;
+    width: 90%;
     padding: 10px;
+    margin-bottom: 5px;
 }
 
 #mail{
-    width: 95%;
-    margin-left: 0;
-    margin-right: 0px;
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 #subscribe{
     padding-bottom: 10px;
 }
-
+  .question{
+    margin-left: 20px;
+    width: 90%;
+  }
   #question{
     font-size: 15px;
   }

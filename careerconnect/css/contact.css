@@ -121,6 +121,7 @@ body{
   }
 
 
+
 #content{
     background-image: url(../images/Image\ \(1\).png);
     background-position: center;
@@ -183,29 +184,29 @@ input{
 }
 
 #mail{
-    background-color: rgba(115, 191, 69, 0.05);
-    margin-bottom: 50px;
+  padding:10px;
+  width: 100%;
+  background-color: rgba(115, 191, 69, 0.05);
+  text-align: center;
 }
 
 .mail{
-    width: 300px;
-    background-color: #0588DA;
-    border-radius: 10px;
-    margin-top: 10px;
-    padding-left: 15px;
+   background-color: #0588DA;
+   border-radius: 10px;
+   margin-top: 10px;
+   width: 300px;
 }
 
 #subscribe{
-    padding: 10px, 30px;
-    border-radius: 10px;
+   padding: 10px,30px;
+   border-radius: 20px;
 }
 
 #connected{
-    color: #4D4645;
-    font-family: Ubuntu;
-    font-size: 32px;
-    font-weight: 400;
-    margin-left: 100px;
+   color: #4D4645;
+   font-family: Ubuntu;
+   font-size: 32px;
+   font-weight: 400;
 }
 
 .T_1{
@@ -248,6 +249,10 @@ input{
     justify-content: center;
     align-items: center;
   }
+
+  #apply{
+    margin-left: 0;
+  }
   #menu-toggle ~ .menu li {
     height: 0;
     margin: 0;
@@ -257,7 +262,7 @@ input{
   }
   #menu-toggle:checked ~ .menu li {
     border: 1px solid #333;
-    height: 2.5em;
+    height: 3.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
@@ -274,16 +279,27 @@ input{
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
+
+body{
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
   }
 
   @media (max-width:500px) {
    #content{
     padding-top: 50px;
+    padding-left: 50px;
+   }
+   #explantion{
+    padding-left: 50px;
    }
     #contact{
     margin-top: 30px;
     font-size: 50px;
    } 
+
 
    #note{
     font-size: 15px;
@@ -292,6 +308,10 @@ input{
    
    form{
     width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    margin-left: 30px;
+    margin-top: 20px;
    }
 
    input{
@@ -303,4 +323,23 @@ input{
     text-align: center;
     font-size: 10px;
 }
+
+    #cont{
+      padding-top: 20px;
+      font-size: 18px;
+    }
+    .mail{
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 5px;
+    }
+
+    #mail{
+      width: 90%;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    #subscribe{
+      padding-bottom: 10px;
+    }
   }

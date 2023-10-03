@@ -253,19 +253,6 @@ body{
 #enroll{    
     width: 55%;
     height: 75%;
-
-
-}
-
-
-.center{
-    color: #0588DA;
-    text-align: center;
-    font-family: 'LT Wave', sans-serif;
-    font-size: 50px;
-    font-weight: 500;
-    left: 530px;
-    margin-top: 270px;
 }
 
 #final_section{
@@ -426,10 +413,6 @@ body{
     }
     
     
-    .center{
-        left: 320px;
-        margin-top: 220px;
-    }
     #enroll{
         height: 200px;
         width: 250px;
@@ -468,6 +451,7 @@ body{
     body{
         width: 100%;
         margin: 0;
+      
         padding: 0;
     }
 
@@ -482,6 +466,9 @@ body{
         display: flex;
         flex-wrap: wrap;
 
+    }
+    #next{
+        padding-top: 20px;
     }
 
     #faq_section{
@@ -507,14 +494,22 @@ body{
         font-size: 30px;
         text-align: center;
         margin-bottom: 0;
-        padding-bottom: 0;
         margin-left: 50px;
     }
+    #final_section{
+        padding: 0px;
+        margin-left: 20px;
+        width: 90%;
+
+    }
+
 
     #jobs{
-        width: 80%;
-        font-size: 25px;
+        width: 70%;
+        font-size: 20px;
         margin-left: 50px;
+        margin-right: 20px;
+        margin-top: 0px;
     }
 
     .T_1{
@@ -522,8 +517,6 @@ body{
         text-align: center;
         font-size: 10px;
     }
-
-    #final_section{
 
     #course_content{
         font-size: 10px;
@@ -539,27 +532,29 @@ body{
     }
 
     #short_note{
-        width:95%;
+        width:100%;
         font-size: 18px;
         margin-bottom: 0px;
         padding-bottom: 0;
     }
     
+    #group{
+        height: 30px;
+        padding-left: 20px;
+    }
     .mail{
-        width: 100px;
+        width: 90%;
         padding: 10px;
     }
 
     #mail{
-        width: 95%;
-        margin-left: 0;
-        margin-right: 0px;
+        width: 90%;
+        margin-left: 20px;
+        margin-bottom:20px;
     }
-    #subscribe{
-        padding-bottom: 10px;
-    }
+    
     #last{
-        width: 95%;
+        width: 99%;
         margin-top: 0px;
     }
     #movement{
@@ -593,5 +588,3 @@ body{
     
 
     }
-}
-  
