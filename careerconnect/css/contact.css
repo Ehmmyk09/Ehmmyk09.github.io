@@ -285,6 +285,7 @@ input{
   margin-bottom: 10px;
 
 }
+
 #social{
   padding-left: 80%;
   margin-bottom: 30px;
@@ -292,7 +293,6 @@ input{
   margin-bottom: 50px;
   padding-top: 10px;
 }
-
 
 
   @media (max-width: 1200px) {
@@ -350,11 +350,17 @@ input{
   }
   
   @media(max-width:500px){
-    #about_us{
+
+    #content{
+      padding-left:20px;
+    }
+    #contact{
       font-size: 80px;
+      padding-left: 0;
+      margin-left: 0;
     }
   
-    #about_note{
+    #note{
       display: flex;
       flex-wrap: wrap;
       width: 90%;
@@ -374,6 +380,7 @@ input{
     form{
       padding: 0;
       margin-left: 0;
+      width: 100%;
     }
     
     .mail{
@@ -393,60 +400,58 @@ input{
       margin-bottom: 20px;
       padding-left: 0;
   }
-  #connected{
-    font-size: 25px;
-  }
-  #subscribe{
-      padding-bottom: 10px;
-  }
-
-  
-    #about{
-      padding-left: 50px;
-      padding-top: 50px;
-    }
-    #social{
-      padding-left: 60%;
-  }
-  #cont{
-    margin-top: 50px;
-    font-size: 18px;
+  #newsletter{
+    padding-left: 0;
+    margin-left: 0;
   }
   .T_1{
-      margin-left: 0;
-      padding-left: 0;
-      text-align: center;
-      font-size: 10px;
-      line-height: 20px;
+    padding-left: 30px;
+    text-align: center;
+    font-size: 10px;
+}
+
+  #about{
+    padding-left: 50px;
+    padding-top: 50px;
   }
-  #T_1{
-      margin-left: 0;
-      padding-left: 0;
-      text-align: center;
-     
-  }
-  #T_3{
-      margin-left: 0;
-      padding-left: 0;
-      text-align: center;
-      padding-top: 0;
-  }
-  
-  #about_content{
-      width: 80%;
-      margin-left: 30px;
-  }
-  
-  #logo{
-      width: 100px;
-      height: 30px;
-  }
-  
-  #linke{
-      margin-left: 0;
-  }
-  #link{
-      margin-left: 0;
-  }
+  #social{
+    padding-left: 60%;
+}
+.T_1{
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+    font-size: 10px;
+    line-height: 20px;
+}
+#T_1{
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+   
+}
+#T_3{
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+    padding-top: 0;
+}
+
+#about_content{
+    width: 80%;
+    margin-left: 30px;
+}
+
+#logo{
+    width: 100px;
+    height: 30px;
+}
+
+#linke{
+    margin-left: 0;
+}
+#link{
+    margin-left: 0;
+}
 }
   
