@@ -6,13 +6,24 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="../js/bootstrap.min.js"></script>
     <title>Document</title>
+    <script>
+
+function myFunction() {
+  var x = document.getElementById("max");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+    </script>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-           <div class="col-lg-7">dxfcgvhbjnbvc</div>
-            <div class="col-lg-5">fndhvbsjnmdcvb</div>
-        </div>
-    </div>
+
+    <div onclick="myFunction()"><img src="../images/minus-circle.png" alt="" srcset=""  > </div>
+
+<div id="myDIV">
+  This is my DIV element.
+</div>
 </body>
 </html>

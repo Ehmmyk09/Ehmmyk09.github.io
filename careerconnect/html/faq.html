@@ -9,6 +9,45 @@
     <link href="https://fonts.cdnfonts.com/css/open-sans" rel="stylesheet">
     <script src="../js/bootstrap.min.js"></script>
     <title>Document</title>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("answer");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }
+    
+          function myFunction1() {
+            var x = document.getElementById("answer1");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }
+    
+          function myFunction2() {
+            var x = document.getElementById("answer2");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+        }
+    
+       
+        function myFunction3() {
+            var x = document.getElementById("answer3");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+        }
+              </script>
 </head>
 <body>
         <!--Header-->
@@ -54,35 +93,47 @@
         <div id="que" class="row">
             <div class="col-lg-3"></div>
             <div id="question" class="col-lg-6">
-                What's the eligibility for learning Tech Skills? 
+                What's the eligibility for learning Tech Skills? <br>
                 <div id="answer">
                     There are no prerequisites for learning tech skills. All you need is to have a laptop and a willingness to learn.
                 </div>  
             </div>
-            <div class="col-lg-3">
-            <img src="../images/minus-circle.png" alt="" srcset=""  id="max"> 
+            <div class="col-lg-3" id="max" onclick="myFunction()">
+            <img src="../images/minus-circle.png" alt="" srcset=""  > 
             </div>
             
             <div class="col-lg-3"></div>
             <div id="question" class="col-lg-6">
                 Can I build my website after learning Website Development?
+            
+            <div id="answer1">
+                Yes, anybody that passes throught our intensive training will be able to build his or her website without external assistance.
+            </div>  
+        </div>
+            <div class="col-lg-3" id="max" onclick="myFunction1()">
+            <img src="../images/minus-circle.png" alt="" srcset="" >
             </div>
-            <div class="col-lg-3">
-            <img src="../images/plus-circle.png" alt="" srcset="" id="max">
-            </div>
+
             <div class="col-lg-3"></div>
             <div id="question" class="col-lg-6">
                 What do I expect to achieve by the end of this program?
+                <div id="answer2">
+                For everyone that graduate in any of our programs becomes certified and get exposured to remote jobs
+                </div> 
             </div>
-            <div class="col-lg-3">
-            <img src="../images/plus-circle.png" alt="" srcset="" id="max">
+            <div class="col-lg-3" id="max" onclick="myFunction2()">
+            <img src="../images/minus-circle.png" alt="" srcset="" >
         </div>
+
             <div class="col-lg-3"></div>
-            <div id="question" class="col-lg-6">
+            <div id="question" class="col-lg-6" >
                 Are the Career Connect Academy classes virtual or physical?
+                <div id="answer3">
+                    Career connect classes are physical although materials are also sent to the online classroom for reference by the students
+                    </div> 
             </div>
-            <div class="col-lg-3">
-            <img src="../images/plus-circle.png" alt="" srcset="" id="max">
+            <div class="col-lg-3" id="max" onclick="myFunction3()">
+            <img src="../images/minus-circle.png" alt="" srcset="" >
         </div>
         </div>
         <div class="question">

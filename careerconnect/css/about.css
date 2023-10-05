@@ -208,6 +208,36 @@ button{
     padding-right: 50px;
 }
 
+#answer1{
+  color: #4A556C;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#answer2{
+  color: #4A556C;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#answer3{
+  color: #4A556C;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 #captura{
     width: 100%;
 }
@@ -226,7 +256,7 @@ button{
 }
 
 #max{
-  height: 20px;
+  height: 10px;
 }
 
 
