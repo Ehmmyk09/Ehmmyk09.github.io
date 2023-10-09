@@ -5,10 +5,24 @@
     border: 0 solid transparent;
 }
 @font-face {
-    font-family: LT wave;
+    font-family: Lt waves-light;
     src: url(../font/LTWave-Light.ttf);
   }
 
+  @font-face {
+    font-family:Lt waves-regular;
+    src: url(../font/LTWave-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Lt waves-bold;
+    src: url(../font/LTWave-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: ubuntu;
+    src: url(../font/Ubuntu-Light.ttf);
+  }
 body{
     display: flex;
     flex-wrap: wrap;
@@ -54,6 +68,7 @@ body{
     text-decoration: none;
     font-size: 20px;
     margin-left: 150px;
+    font-family: Lt waves-light;
   }
   
   #link{
@@ -61,18 +76,19 @@ body{
     text-decoration: none;
     font-size: 20px;
     margin-left: 30px;  
+    font-family: Lt waves-light;
   }
   
   #apply{
     border-radius: 20px;
     margin-left: 250px;
+    font-family: Lt waves-bold;
   }
   
   button{
     border: 1px solid #0588DA;
     background: rgba(255, 255, 255, 0.70);
     color: #0588DA;
-    font-family: 'LT Wave', sans-serif;
     padding: 10px 30px;
     
   }
@@ -128,10 +144,7 @@ body{
   }
 
 
-  #logo{
-    height: 40px;
-    margin-left: 0px;
-  }
+ 
 
 #content{
     color: white;
@@ -151,7 +164,7 @@ body{
 #note{
     color: #0588DA;
     text-shadow: 0px -1px 6px rgba(255, 255, 255, 0.50);
-    font-family: LT wave;
+    font-family: Lt waves-regular;
     font-size: 100px;
     font-style: normal;
     width: 90%;
@@ -167,17 +180,18 @@ body{
 
 #explanation{
     color: #4D4645;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-family: Open Sans;
+    font-size: 20px;
     font-weight: 400;
     line-height: 32px; 
-    width: 90%;
+    width: 100%;
     padding-right: 200px;
 }
 
 #appli{
     margin-top: 50px;
     border-radius: 20px;
+    font-family: Lt waves-bold;
 }
 
 #next{
@@ -188,15 +202,15 @@ body{
 #About{
     color: #0588DA;
     text-align: center;
-    font-family: 'LT Wave Mono', sans-serif;
+    font-family: Lt waves-bold;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 #about_content{
     color: #4D4645;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: open sans;
     font-size: 20px;
     font-weight: 400;
     margin-left:100px;
@@ -207,9 +221,9 @@ body{
 
 .our_courses{
     color: #0588DA;
-    font-family: 'LT Wave Mono', sans-serif;
+    font-family: Lt waves-regular;
     font-size: 50px;
-    font-weight: 700px;
+    font-weight: 500px;
     text-align: center;
     width: 100%;
 }
@@ -235,7 +249,7 @@ body{
     border-radius: 10px;
     background-color: #73BF450D;
     text-align: center;
-    font-family: 'LT Wave Mono', sans-serif;
+    font-family: Lt waves-regular;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
@@ -249,8 +263,8 @@ body{
 #short_note{
 
     color: #4D4645;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-family: open sans;
+    font-size: 20px;
     font-weight: 400;
     margin-top: 15px;
     width: 100%;
@@ -274,7 +288,7 @@ body{
 
 .listen{
     color: #0588DA;
-    font-family: 'LT Wave Mono', sans-serif;
+    font-family: lt waves-regular;
     font-size: 50px;
     font-weight: 400;
     width: 40%;
@@ -292,14 +306,13 @@ body{
     margin-left: 10px;
     text-wrap: wrap;
     background-color: white;
-
-
+    font-family: open sans;
 }
 
 #movement{
     color: #4D4645;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Open sans;
     font-size: 20px;
     font-weight: 400;
     width: 100%;
@@ -311,11 +324,12 @@ body{
     background-color: #0588DA;
     color: white;
     margin-top: 20px;
+    font-family: lt waves-light;
 }
 
 #newsletter{
     color: #4D4645;
-    font-family: LT Wave;
+    font-family: 'Gabarito', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -338,16 +352,18 @@ body{
     margin-top: 10px;
     width: 400px;
     padding: 15px;
+    font-family: Lt waves-light;
 }
 
 #subscribe{
     padding: 10px,30px;
     border-radius: 20px;
+    font-family: Lt waves-light;
 }
 
 #connected{
     color: #4D4645;
-    font-family: Ubuntu;
+    font-family: ubuntu;
     font-size: 32px;
     font-weight: 400;
 }
@@ -356,7 +372,7 @@ body{
     margin-bottom: 50px;
     padding-left: 150px;
     color: #4D4645;
-    font-family: LT wave;
+    font-family: Lt waves-regular;
     font-size: 20px;
     font-weight: 400;
     line-height: 60px;
@@ -364,7 +380,7 @@ body{
 #T_3{
     margin-bottom: 50px;
     color: #4D4645;
-    font-family: LT wave;
+    font-family: Lt waves-regular;
     font-size: 20px;
     font-weight: 400;
     line-height: 60px
@@ -372,20 +388,14 @@ body{
 
 .T_1{
     color: #4D4645;
-    font-family: LT wave;
+    font-family:Lt waves-regular;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
-    
+    text-decoration: none;
 }
 
-#T_2{
-    color: #4D4645;
-    font-family: 'LT Wave Mono', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    opacity: 0.5;
-}
+
 
 #final_section{
     padding-bottom: 30px;
@@ -514,6 +524,10 @@ body{
         padding: 10px, 30px;
         border-radius: 10px;
     }
+    .social{
+        height: 30px;
+        width: 30px;
+    }
   }
 
   @media(max-width:500px){
@@ -523,28 +537,60 @@ body{
         padding: 0;
     }
 
+   #logo{
+    width: 132.87px;
+height: 30.75px
+
+   }
 
     #content{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        padding-top: 60px;
         width: 100%;
+        background-image: url(../images/Image\ \(4\).png);
         padding: 0;
         display: flex;
         flex-wrap: wrap;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
 
     #note{
+        font-size: 35px;
+        line-height: 40px;
         width: 100%;
     }
     #explanation{
-        width: 100%;
+        font-size: 20px;
     }
     #next{
-        padding-top: 20px;
+        padding-top: 150px;
+        background-image: url(../images/About\ Us\ Image\ \(1\).png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 0;
     }
 
+
+    #about{
+        font-size: 30px;
+    }
+    #about_content{
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        line-height: 25px;
+        padding-bottom: 10;
+        margin-top: 10px;
+    }
+
+    #our_courses{
+        font-size: 30px;
+    }
     #faq_section{
         width: 90%;
         padding-top: 50px;
@@ -595,21 +641,23 @@ body{
         margin-right: 50px;
     }
 
-    #about_content{
-        font-size: 15px;
-        margin-top: 20px;
-        padding-bottom: 20px;
-    }
+
 
     #short_note{
         width:100%;
-        font-size: 18px;
+        font-size: 20px;
         margin-bottom: 0px;
         padding-bottom: 0;
+        padding-left: 20px;
+        padding-right: 10px;
     }
     #job{
         margin-top: 0;
     }
+
+#testimony{
+    font-size: 20px;
+}
     #group{
         height: 30px;
         padding-left: 20px;
@@ -621,6 +669,7 @@ body{
     }
     #movement{
         margin-bottom: 0px;
+        font-size: 20px;
     }
 
     
@@ -634,11 +683,7 @@ body{
     padding-left: 0;
     margin-left: 0;
   }
-  .T_1{
-    padding-left: 30px;
-    text-align: center;
-    font-size: 10px;
-}
+
 
   #about{
     padding-left: 50px;
@@ -651,30 +696,29 @@ body{
     margin-left: 0;
     padding-left: 0;
     text-align: center;
-    font-size: 10px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
 }
 #T_1{
     margin-left: 0;
     padding-left: 0;
     text-align: center;
-   
+    font-size: 20px;
+    
+
 }
 #T_3{
     margin-left: 0;
     padding-left: 0;
     text-align: center;
     padding-top: 0;
+    font-size: 20px;
 }
 
 #about_content{
     width: 80%;
     margin-left: 30px;
-}
-
-#logo{
-    width: 100px;
-    height: 30px;
 }
 
 .mail{
@@ -712,9 +756,6 @@ body{
         overflow-x: hidden;
     }
 
-    #logo{
-        height: 20px;
-    }
 
     #content{
         padding-right: 5px;
