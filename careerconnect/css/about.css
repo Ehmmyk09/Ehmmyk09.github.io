@@ -474,6 +474,7 @@ body{
 
 #about{
   background-image: url(../images/About\ Us\ Image\ \(1\).png);
+  padding-bottom: 50px;
 }
 
 #logo{
@@ -633,6 +634,10 @@ height: 30.75px
 .social{
   height: 30px;
   text-decoration: none;
+}
+#last{
+  width: 99%;
+  margin-top: 50px;
 }
 }
 

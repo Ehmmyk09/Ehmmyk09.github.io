@@ -573,7 +573,7 @@ body{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        padding-bottom: 0;
+        padding-bottom: 50px;
     }
 
 
@@ -668,7 +668,7 @@ body{
 
     #last{
         width: 99%;
-        margin-top: 0px;
+        margin-top: 50px;
     }
     #movement{
         margin-bottom: 0px;

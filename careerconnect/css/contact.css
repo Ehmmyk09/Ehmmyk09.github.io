@@ -381,7 +381,7 @@ height: 30.75px
     #content{
       padding-left:20px;
       background-image: url(../images/contact\ us.png);
-      padding-bottom: 10px;
+      padding-bottom: 50px;
       padding-right: 20px;
     }
     #contact{
@@ -491,6 +491,10 @@ height: 30.75px
 .social{
   height: 30px;
   text-decoration: none;
+}
+#last{
+  width: 99%;
+  margin-top: 50px;
 }
 }
   

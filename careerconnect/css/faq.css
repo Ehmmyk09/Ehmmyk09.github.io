@@ -453,17 +453,17 @@ body{
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
+        padding-bottom: 50px;
     }
     .faq{
       font-size: 50px;
       text-align: center;
-      margin-left: 100px;
+    
     }
 
     #short_note{
         width: 100%;
         font-size: 20px;
-        text-align: center;
         margin-left: 70px;
         line-height: 20px;
     }
@@ -592,4 +592,8 @@ body{
     height: 30px;
     text-decoration: none;
   }
+  #last{
+    width: 99%;
+    margin-top: 50px;
+}
   }
