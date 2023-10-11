@@ -23,6 +23,10 @@
     font-family: ubuntu;
     src: url(../font/Ubuntu-Light.ttf);
   }
+  @font-face {
+    font-family: open sans;
+    src: url(../font/OpenSans_Condensed-Regular.ttf);
+  }
 body{
     display: flex;
     flex-wrap: wrap;
