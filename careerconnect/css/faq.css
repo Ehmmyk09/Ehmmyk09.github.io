@@ -27,7 +27,7 @@ src: url(../font/Ubuntu-Light.ttf);
 
 @font-face {
   font-family: open sans;
-  src: url(../font/OpenSans_Condensed-Regular.ttf);
+  src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 body{
   display: flex;
@@ -387,7 +387,7 @@ margin-bottom: 50px;
 padding-top: 10px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .menu-button-container {
     display: flex;
   }
@@ -442,7 +442,7 @@ body{
 }
   }
 
-  @media (max-width:500px) {
+  @media (max-width:700px) {
     #faq{
         padding-top: 30px;
         padding-bottom: 10px;

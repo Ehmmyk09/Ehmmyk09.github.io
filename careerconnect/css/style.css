@@ -23,10 +23,12 @@
     font-family: ubuntu;
     src: url(../font/Ubuntu-Light.ttf);
   }
+
   @font-face {
     font-family: open sans;
-    src: url(../font/OpenSans_Condensed-Regular.ttf);
+    src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
   }
+ 
 body{
     display: flex;
     flex-wrap: wrap;
@@ -281,9 +283,7 @@ body{
     margin-top: 100px;
     text-align: center;
 }
-#enroll{
-    width: 500px;
-}
+
 #final_section{
     background: rgba(115, 191, 69, 0.05);
     width: 100%;
@@ -308,7 +308,6 @@ body{
     width: 300px;
     flex-direction: column;
     margin-left: 10px;
-    text-wrap: wrap;
     background-color: white;
     font-family: open sans;
 }
@@ -485,7 +484,10 @@ body{
         width: 100%;
         padding-top: 60px;
     }
-    
+
+    #enroll{
+        width: 500px;
+    }
     #note{
         font-size: 45px;
     }
@@ -496,10 +498,7 @@ body{
     }
     
     
-    #enroll{
-        height: 200px;
-        width: 250px;
-    }
+   
     #enroll_img{
         width:95%;
         margin-top: 100px;
@@ -534,7 +533,7 @@ body{
     }
   }
 
-  @media(max-width:500px){
+  @media(max-width:700px){
     body{
         width: 100%;
         margin: 0;
@@ -543,7 +542,7 @@ body{
 
    #logo{
     width: 132.87px;
-height: 30.75px
+    height: 30.7px
 
    }
 
@@ -563,7 +562,7 @@ height: 30.75px
     #note{
         font-size: 35px;
         line-height: 40px;
-        width: 100%;
+        width: 90%;
     }
     #explanation{
         font-size: 20px;
@@ -750,6 +749,10 @@ height: 30.75px
 #link{
     margin-left: 0;
 }
+#enroll{
+    width: 400px;
+}
+
   }
 
 
@@ -770,6 +773,9 @@ height: 30.75px
         padding-right: 10px;
     }
     
-
+    .social{
+        width: 20px;
+        height: 20px;
+    }
     }
   

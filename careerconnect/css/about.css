@@ -24,10 +24,9 @@
   font-family: ubuntu;
   src: url(../font/Ubuntu-Light.ttf);
 }
-
 @font-face {
   font-family: open sans;
-  src: url(../font/OpenSans_Condensed-Regular.ttf);
+  src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
 body{
@@ -471,7 +470,7 @@ body{
 }
 }
 
-@media(max-width:500px){
+@media(max-width:700px){
 
 #about{
   background-image: url(../images/About\ Us\ Image\ \(1\).png);
@@ -637,3 +636,10 @@ height: 30.75px
 }
 }
 
+
+@media(max-width:300px){
+  .social{
+    height: 20px;
+    text-decoration: none;
+  }
+}
