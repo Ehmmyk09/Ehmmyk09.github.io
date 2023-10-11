@@ -511,23 +511,23 @@ body{
     }
     #question{
       font-size: 20px;
-      text-align: center;
+      text-align: left;
     }
 
     #answer{
-      font-size: 18px;
+      font-size: 16px;
     }
 
     #answer1{
-      font-size: 18px;
+      font-size: 16px;
     }
 
     #answer2{
-      font-size: 18px;
+      font-size: 16px;
     }
 
     #answer3{
-      font-size: 18px;
+      font-size: 16px;
     }
     #que{
       margin: 0 !important;
