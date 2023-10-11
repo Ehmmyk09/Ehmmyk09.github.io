@@ -412,6 +412,7 @@ body{
 
 #last{
     margin-bottom: 10px;
+    margin-top: 50px;
 
 }
 #social{
@@ -421,7 +422,7 @@ body{
     margin-bottom: 50px;
     padding-top: 10px;
 }
-
+ 
 
 @media (max-width: 1000px) {
     .menu-button-container {
@@ -668,7 +669,7 @@ body{
 
     #last{
         width: 99%;
-        margin-top: 50px;
+        
     }
     #movement{
         margin-bottom: 0px;
